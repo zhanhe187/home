@@ -1,5 +1,7 @@
 # PROJECTS / 系统索引
 
+线上地址：<https://zhanhe187.github.io/home/>
+
 一个纯静态的项目导航页：玻璃质感、冷光背景、两张 WebGL 动效，页面上只有**项目名称、简介和跳转地址**。
 
 不包含姓名、照片、学校、电话、邮箱、简历或任何联系方式，也不加载统计脚本与第三方字体。
@@ -32,7 +34,11 @@ python -m http.server 8080
 
 ## 部署到 GitHub Pages
 
-1. 新建一个仓库（建议 `projects` 或 `zhanhe187.github.io`）。
+当前仓库为 `zhanhe187/home`，Pages 已开启，地址是 <https://zhanhe187.github.io/home/>。
+
+重新部署或迁移时：
+
+1. 新建一个仓库（建议 `home`、`projects` 或 `zhanhe187.github.io`）。
 2. 推送本目录：
 
 ```bash
@@ -45,7 +51,7 @@ git push -u origin main
 
 - 仓库名为 `<用户名>.github.io` 时，地址是 `https://<用户名>.github.io/`
 - 其他仓库名时，地址是 `https://<用户名>.github.io/<仓库名>/`
-- 项目子路径部署时，建议把 `<meta property="og:image">` 改成完整的线上地址
+- 换仓库名后，把 `index.html` 里的 canonical / `og:url` / `og:image` 与 `twitter:image` 改成新的完整地址
 
 ## 维护
 
