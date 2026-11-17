@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>项目索引 · 系统与入口</title>
-<meta name="description" content="三个系统的在线体验与源码地址：非遗文化知识图谱平台、IT 服务交付系统、员工全周期治理系统。">
+<meta name="description" content="三个系统：非遗文化知识图谱平台、IT 服务交付系统、员工全周期治理系统。工单分诊、合同治理、知识图谱，点开即达。">
 <meta name="theme-color" content="#e7eef7">
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="https://zhanhe187.github.io/home/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zhanhe187.github.io/home/">
 <meta property="og:title" content="项目索引 · 系统与入口">
-<meta property="og:description" content="三个系统的在线体验与源码地址。点开卡片，直接到项目。">
+<meta property="og:description" content="工单分诊、合同治理、知识图谱——三个系统，点开即达。">
 <meta property="og:image" content="https://zhanhe187.github.io/home/assets/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -72,24 +72,19 @@
       <div class="hero__copy">
         <p class="eyebrow reveal"><span class="dot" aria-hidden="true"></span> PROJECT INDEX · 2026</p>
         <h1 id="hero-title" class="reveal">三个系统，<br><span class="grad">一个入口。</span></h1>
-        <p class="hero__lead reveal">一个在线平台，两套企业系统。<br class="br-m">点开卡片，直接到项目地址。</p>
+        <p class="hero__lead reveal">工单分诊、合同治理、知识图谱，点开即达。</p>
         <div class="hero__cta reveal">
           <a class="btn btn--primary" href="#work">浏览项目
             <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v11M4.5 10.5 10 16l5.5-5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
           <a class="btn btn--ghost" href="http://124.222.198.58" target="_blank" rel="noopener">在线体验 <span class="up" aria-hidden="true">↗</span></a>
         </div>
-        <p class="hero__meta reveal">
-          <span><b>01</b> 在线平台</span>
-          <span><b>03</b> 项目入口</span>
-          <span><b>2026</b> 持续更新</span>
-        </p>
       </div>
 
-      <aside class="portal glass reveal" aria-label="项目快捷入口">
+      <aside class="portal glass reveal" data-portal aria-label="项目快捷入口">
         <div class="portal__head">
           <span>QUICK INDEX</span>
-          <span class="portal__count">03</span>
+          <button class="portal__count" type="button" aria-label="重播搭建动画" title="重播搭建动画">03</button>
         </div>
         <a class="portal__row" href="http://124.222.198.58" target="_blank" rel="noopener">
           <span class="portal__num">01</span>
@@ -109,7 +104,6 @@
           <span class="portal__tag">源码</span>
           <span class="portal__arrow" aria-hidden="true">↗</span>
         </a>
-        <p class="portal__foot">点击任意一行，跳转到项目地址</p>
       </aside>
     </div>
   </section>
@@ -117,8 +111,7 @@
   <section class="section" id="work" aria-labelledby="work-title">
     <div class="sec-head">
       <p class="sec-index reveal">01 / PROJECTS</p>
-      <h2 id="work-title" class="reveal">点开卡片，<br class="br-m">直接到项目。</h2>
-      <p class="sec-note reveal">卡片是一个地址：在线体验，或源码仓库。<br class="br-m">悬停有流动的液体，点按直接跳转。</p>
+      <h2 id="work-title" class="reveal">三个系统，<br class="br-m">三种难点。</h2>
     </div>
 
     <div class="lc-grid">
@@ -131,7 +124,7 @@
           </div>
           <div class="lc__body">
             <h3>非遗文化知识图谱平台</h3>
-            <p>图谱看板、申报审核、社区问答与展览市集，外加一面线下数据大屏。</p>
+            <p>非遗知识图谱：<b>图谱看板</b>、申报审核、社区问答与线下数据大屏。</p>
             <ul class="lc__tags" aria-label="技术栈">
               <li>Vue 3</li>
               <li>Spring Boot</li>
@@ -154,7 +147,7 @@
           </div>
           <div class="lc__body">
             <h3>IT 服务交付系统</h3>
-            <p>工单状态机、SpEL 鉴权与 AI 工单分诊，模型不可用时自动降级。</p>
+            <p><b>5 状态 / 8 流转</b>收进 1 张表；<b>23 / 28</b> 接口做 SpEL 鉴权；模型 <b>5 类故障</b>自动切规则。</p>
             <ul class="lc__tags" aria-label="技术栈">
               <li>Spring Boot</li>
               <li>LangChain4j</li>
@@ -176,7 +169,7 @@
           </div>
           <div class="lc__body">
             <h3>员工全周期治理系统</h3>
-            <p>合同续签、到期提醒与邮件投递，强调事务与幂等。</p>
+            <p>合同续签、提醒与邮件投递；<b>1 个事务</b>写三步，失败每 <b>10s</b> 补投、最多 <b>3 次</b>。</p>
             <ul class="lc__tags" aria-label="技术栈">
               <li>Spring Boot</li>
               <li>RabbitMQ</li>
@@ -195,12 +188,10 @@
     <div class="live">
       <canvas id="liquidGlass" aria-hidden="true"></canvas>
       <div class="live__inner">
-        <p class="live__eyebrow reveal">ONLINE / 在线体验</p>
-        <h2 id="live-title" class="reveal">直接进入在线系统。</h2>
-        <p class="live__note reveal">非遗文化知识图谱平台 · 图谱看板 / 申报审核 / 社区问答 / 数据大屏</p>
+        <p class="live__eyebrow reveal">ONLINE / 非遗知识图谱</p>
+        <h2 id="live-title" class="reveal">图谱在线。</h2>
         <div class="live__actions reveal">
           <a class="btn btn--light" href="http://124.222.198.58" target="_blank" rel="noopener">打开 124.222.198.58 <span class="up" aria-hidden="true">↗</span></a>
-          <span class="live__hint">无需登录即可浏览</span>
         </div>
       </div>
     </div>
@@ -211,13 +202,14 @@
   <div class="footer__inner">
     <p class="footer__brand">PROJECTS <span>/ 系统索引</span></p>
     <p class="footer__credit">手写 HTML / CSS 与一点 WebGL · 动效参考 LeiBox
-      <span class="footer__tiny">shader-flood（Ashish Gogula / Planes）· blue-fluted-glass（sasha birukoff）</span>
+      <span class="footer__tiny">shader-flood（Ashish Gogula / Planes）· blue-fluted-glass（sasha birukoff）· multi-cursor-builder（LeiBox）</span>
     </p>
     <a class="footer__top" href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
   </div>
 </footer>
 
 <script src="assets/js/site.js" defer></script>
+<script src="assets/js/cursor-build.js" defer></script>
 <script src="assets/js/liquid-cards.js" defer></script>
 <script src="assets/js/liquid-glass.js" defer></script>
 </body>

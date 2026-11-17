@@ -2,7 +2,7 @@
 
 线上地址：<https://zhanhe187.github.io/home/>
 
-一个纯静态的项目导航页：玻璃质感、冷光背景、两张 WebGL 动效，页面上只有**项目名称、简介和跳转地址**。
+一个纯静态的项目导航页：玻璃质感、冷光背景、两张 WebGL 动效和一组多光标搭建动效，页面上只有**项目名称、简介和跳转地址**。
 
 不包含姓名、照片、学校、电话、邮箱、简历或任何联系方式，也不加载统计脚本与第三方字体。
 
@@ -64,6 +64,7 @@ git push -u origin main
 | 玻璃/配色 | `assets/css/site.css` 顶部的 CSS 变量（`--glass`、`--accent` 等） |
 | 液态卡片动效 | `assets/js/liquid-cards.js`（默认悬停触发） |
 | 在线区液体玻璃 | `assets/js/liquid-glass.js` |
+| 光标搭建动效 | `assets/js/cursor-build.js`（首屏执行一次，点 `03` 重播） |
 
 项目链接都直接写在 HTML 里，替换 `href` 即可；卡片里的技术栈是普通 `<li>`，可自由增删。
 
@@ -72,6 +73,7 @@ git push -u origin main
 - 无框架、无构建步骤，只有 HTML / CSS / 原生 JS。
 - 液态卡片改造自 LeiBox `shader-flood`（设计参考：Ashish Gogula / Planes），保留署名。
 - 在线区液体玻璃改造自 LeiBox `blue-fluted-glass`（设计参考：sasha birukoff），保留署名。
+- 首屏快捷索引的多光标搭建动效改造自 LeiBox `multi-cursor-builder`；原组件是完整英文 demo，这里只保留光标、选框与搭建节奏，点击索引右上角 `03` 可重播。
 - 系统字体：Inter / SF Pro / PingFang SC / Microsoft YaHei 等，不请求外部字体。
 - 支持深浅色主题（跟随系统 + 手动切换 + 记忆）、键盘焦点、减少动效；WebGL 不可用时自动降级为静态玻璃卡。
 
