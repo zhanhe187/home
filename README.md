@@ -1,4 +1,4 @@
-# 项目汇总 / PERSONAL PROJECTS
+# 项目汇总主页 / PERSONAL PROJECTS
 
 线上地址：<https://zhanhe187.github.io/home/>
 
